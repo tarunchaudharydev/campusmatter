@@ -417,6 +417,16 @@ https://www.figma.com/design/NoHSqHHYfD8jxVnwgTxcy3/Smart-Hostel-Energy-Optimiza
 
 ---
 
+## Dashboard Preview
+
+![Dashboard UI](images/WebDashboard.png)
+
+## Mobile Dashboard Preview
+
+![Mobile UI](images/MobileDashboard.png)
+
+---
+
 ## Design Objectives
 
 The UI/UX system has been designed with the following goals:
