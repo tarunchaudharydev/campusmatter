@@ -1,3 +1,8 @@
+![Status](https://img.shields.io/badge/Status-In%20Development-blue)
+![Protocol](https://img.shields.io/badge/Protocol-Matter-green)
+![Platform](https://img.shields.io/badge/Platform-ESP32-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # CampusMatter
 
 > Matter-Based Smart Hostel Automation and Energy Optimization System
@@ -302,9 +307,9 @@ campusmatter/
 | --------------------- | ---------------------------------------------- | ----------- |
 | Research and Analysis | Problem identification and protocol research   | Completed   |
 | Architecture Design   | Communication and system architecture planning | In Progress |
-| UI/UX Development     | Dashboard and application design               | In Progress |
+| UI/UX Development     | Dashboard and application design               | Completed   |
 | Hardware Prototyping  | ESP32 node and sensor integration              | Planned     |
-| Backend and Dashboard | Monitoring and analytics development           | Planned     |
+| Backend and Dashboard | Monitoring and analytics development           | In Progress |
 | Final Integration     | System-wide testing and deployment             | Planned     |
 
 ---
@@ -457,13 +462,6 @@ The UI/UX system has been designed with the following goals:
 - Energy analytics visualization
 - Occupancy status tracking
 - Automation configuration panel
-
-## Design Objectives
-
-- Clean and modern interface
-- User-friendly navigation
-- Responsive dashboard layout
-- Scalable design system
 
 ---
 
