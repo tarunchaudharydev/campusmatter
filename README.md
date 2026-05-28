@@ -134,6 +134,51 @@ The proposed solution supports future integration with AI-driven optimization sy
 
 ---
 
+## Detailed System Architecture
+
+![CampusMatter System Architecture](images/system-architecture.png)
+
+### Figma Architecture Design
+
+https://www.figma.com/board/R5EGnhXLoS8LCCX0KBMuGj/4-Layer-Architecture?node-id=0-1&t=ixFz7d1rTIAY2e8n-1
+
+### Architecture Description
+
+The CampusMatter system architecture follows a layered IoT infrastructure model designed for scalability, interoperability, and real-time smart automation.
+
+The architecture integrates:
+
+- ESP32-based smart nodes
+- Occupancy and environmental sensors
+- Matter communication protocol
+- Gateway and processing infrastructure
+- Automation and analytics engine
+- Web and mobile monitoring dashboards
+
+The system supports real-time data collection, secure communication, centralized monitoring, and intelligent energy optimization for smart hostel and campus environments.
+
+---
+
+### Architecture Layers
+
+#### Dashboard Layer
+
+Provides centralized monitoring, analytics visualization, appliance control, notifications, and smart automation management through web and mobile dashboards.
+
+#### Gateway & Processing Layer
+
+Handles device orchestration, automation logic, backend processing, real-time analytics, and data aggregation using Node.js and gateway infrastructure.
+
+#### Matter Communication Layer
+
+Enables secure and interoperable communication between distributed smart devices using Matter protocol, MQTT messaging, and WiFi connectivity.
+
+#### Sensor & Device Layer
+
+Includes ESP32 smart nodes, PIR occupancy sensors, smart relays, energy meters, smart plugs, and appliance automation modules responsible for data collection and environmental monitoring.
+
+---
+
 # Workflow
 
 1. Sensors continuously monitor occupancy and appliance usage
