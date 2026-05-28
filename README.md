@@ -527,6 +527,40 @@ CampusMatter aligns with modern Industry 4.0 and smart infrastructure initiative
 
 ---
 
+# Research References
+
+The development and architecture planning of CampusMatter are supported by official Matter protocol documentation and IoT interoperability research resources.
+
+## Reference Documents
+
+- Matter Protocol Documentation
+- Silicon Labs IoT Development Resources
+- Smart Infrastructure and Energy Optimization Research
+
+---
+
+## Research Focus Areas
+
+The project research includes:
+
+- Matter interoperability standards
+- Smart home communication protocols
+- Occupancy-based energy optimization
+- Embedded IoT systems
+- Distributed smart infrastructure
+- Low-power smart automation
+
+---
+
+## Documentation Resources
+
+Technical references and implementation resources are available in:
+
+```text
+docs/research-papers/.
+
+---
+
 # Contributors
 
 ## Team Members
@@ -540,3 +574,4 @@ CampusMatter aligns with modern Industry 4.0 and smart infrastructure initiative
 This project is licensed under the MIT License.
 
 ---
+```
