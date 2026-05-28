@@ -554,10 +554,11 @@ The project research includes:
 
 ## Documentation Resources
 
-Technical references and implementation resources are available in:
+Technical references, protocol specifications, and implementation resources related to the Matter ecosystem are available in:
 
 ```text
-docs/research-papers/.
+docs/research-papers/matter-protocol-documentation.pdf
+```
 
 ---
 
@@ -574,4 +575,3 @@ docs/research-papers/.
 This project is licensed under the MIT License.
 
 ---
-```
