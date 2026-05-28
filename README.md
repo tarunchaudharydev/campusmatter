@@ -1,6 +1,8 @@
 ![Status](https://img.shields.io/badge/Status-In%20Development-blue)
 ![Protocol](https://img.shields.io/badge/Protocol-Matter-green)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-orange)
+![Backend](https://img.shields.io/badge/Backend-Node.js-brightgreen)
+![UI](https://img.shields.io/badge/UI%2FUX-Figma-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # CampusMatter
@@ -224,7 +226,7 @@ The proposed solution supports future integration with AI-driven optimization sy
 
 # Repository Structure
 
-```text id="k2w6z9"
+```text
 campusmatter/
 │
 ├── README.md
@@ -572,6 +574,6 @@ docs/research-papers/matter-protocol-documentation.pdf
 
 # License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
