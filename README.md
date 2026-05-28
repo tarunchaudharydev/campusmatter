@@ -374,7 +374,71 @@ The system design allows future upgrades without major infrastructure changes.
 
 # UI/UX Design
 
-The dashboard and application interface are designed using Figma to provide an intuitive and scalable user experience.
+The CampusMatter dashboard and mobile application interface have been designed using Figma to provide a modern, scalable, and user-friendly smart hostel management experience.
+
+The UI focuses on:
+
+- Real-time device monitoring
+- Energy analytics visualization
+- Smart appliance control
+- Occupancy monitoring
+- Automation management
+- Centralized infrastructure monitoring
+
+The design system follows a clean and responsive dashboard architecture suitable for both desktop and mobile platforms.
+
+---
+
+## Figma Design Prototype
+
+### Web and Mobile Dashboard Design
+
+https://www.figma.com/design/NoHSqHHYfD8jxVnwgTxcy3/Smart-Hostel-Energy-Optimization-System-using-Matter?node-id=0-1&t=HaEr8uKJNGCPJ0Zt-1
+
+---
+
+## Designed Screens
+
+### Web Dashboard
+
+- Energy monitoring dashboard
+- Device management interface
+- Occupancy analytics
+- Appliance control panel
+- System monitoring interface
+
+### Mobile Dashboard
+
+- Smart room controls
+- Real-time device status
+- Appliance automation controls
+- Notifications and alerts
+- Energy usage overview
+
+---
+
+## Design Objectives
+
+The UI/UX system has been designed with the following goals:
+
+- Clean and modern interface
+- Easy navigation and accessibility
+- Responsive cross-platform experience
+- Real-time monitoring visualization
+- Scalable smart infrastructure management
+- User-friendly automation controls
+
+---
+
+## Design Tools Used
+
+| Tool    | Purpose                        |
+| ------- | ------------------------------ |
+| Figma   | UI/UX Design                   |
+| Draw.io | System Architecture Diagrams   |
+| React   | Frontend Dashboard Development |
+
+---
 
 ## Dashboard Features
 
