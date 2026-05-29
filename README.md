@@ -613,9 +613,9 @@ docs/research-papers/matter-protocol-documentation.pdf
 
 ## Maintainers & Contributors
 
-| Name            | Role                          | Contact Information          | GitHub Profile    |
-| :-------------- | :---------------------------- | :--------------------------- | :---------------- |
-| **Tarun Kumar** | Project Lead & Core Developer | tarunchaudhary.dev@gmail.com | tarunchaudharydev |
+| Name            | Role                          | Contact Information          | GitHub Profile                                             |
+| :-------------- | :---------------------------- | :--------------------------- | :--------------------------------------------------------- |
+| **Tarun Kumar** | Project Lead & Core Developer | tarunchaudhary.dev@gmail.com | [@tarunchaudharydev](https://github.com/tarunchaudharydev) |
 
 ---
 
