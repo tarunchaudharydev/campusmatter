@@ -784,8 +784,6 @@ Educational institutions and hostel facilities consume a significant amount of e
 - Dependence on expensive proprietary automation ecosystems.
 - Difficulty scaling smart infrastructure across multiple buildings and floors.
 
-Most existing smart home solutions are designed primarily for residential environments and are not optimized for large-scale educational infrastructure. As campuses continue to expand, there is a growing need for an affordable, scalable, and interoperable smart automation platform capable of reducing energy wastage while maintaining user comfort and operational reliability.
-
 ---
 
 ## Why CampusMatter?
@@ -803,13 +801,9 @@ Unlike conventional smart home systems, CampusMatter focuses on campus-scale aut
 - Secure and local-first communication architecture.
 - Future integration with Edge AI and advanced analytics systems.
 
-By combining these technologies, CampusMatter demonstrates how modern IoT ecosystems can be adapted for large-scale educational environments while remaining affordable, maintainable, and future-ready.
-
 ---
 
 ## Objectives
-
-The primary objectives of CampusMatter are:
 
 1. Reduce unnecessary energy consumption across hostel and campus environments.
 2. Automate appliance control using occupancy detection and intelligent automation rules.
@@ -871,6 +865,10 @@ The automation engine continuously monitors room occupancy using PIR sensors and
 - Power-saving mode activation
 - Energy waste reduction
 
+<p align="center">
+  <img src="docs/diagrams/automation-workflow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
+
 ---
 
 ### Gateway-Based Orchestration
@@ -897,6 +895,14 @@ CampusMatter provides continuous monitoring of energy consumption and device act
 - Historical usage trends
 - Occupancy analytics
 - Automation effectiveness tracking
+
+<p align="center">
+  <img src="docs/diagrams/analytics-pipeline-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
+
+<p align="center">
+  <img src="docs/diagrams/analytics-pipeline-workflow.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ---
 
@@ -939,6 +945,9 @@ The hardware architecture follows a modular approach, allowing easy expansion an
 - Smart Plugs
 - Gateway Controllers
 
+<p align="center">
+  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 ---
 
 ### Scalable Smart Infrastructure
@@ -1010,8 +1019,6 @@ The roadmap below illustrates the planned development lifecycle and major engine
 
 ### Current Focus
 
-The project is currently focused on:
-
 - Matter protocol integration
 - ESP32 smart node development
 - Gateway communication services
@@ -1055,8 +1062,6 @@ CampusMatter leverages Matter to overcome these limitations by providing:
 - Future-ready infrastructure design
 - Cross-platform compatibility
 - Local-first communication architecture
-
-Matter enables CampusMatter to create a unified smart infrastructure where devices from multiple manufacturers can seamlessly communicate within the same ecosystem.
 
 ---
 
@@ -1119,25 +1124,9 @@ CampusMatter utilizes Matter as a communication abstraction layer between hardwa
 
 ### Communication Architecture
 
-```text
-PIR Sensors
-Energy Meters
-Smart Relays
-Smart Plugs
-        ↓
-ESP32 Smart Nodes
-        ↓
-Matter Communication Layer
-        ↓
-Raspberry Pi Gateway
-        ↓
-Automation Engine
-Analytics Engine
-Database Services
-        ↓
-Web Dashboard
-Mobile Dashboard
-```
+<p align="center">
+  <img src="docs/diagrams/device-interoperability-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ### Interoperability Benefits
 
@@ -1147,8 +1136,6 @@ Mobile Dashboard
 - Consistent automation workflows
 - Reduced integration complexity
 - Long-term ecosystem sustainability
-
-This architecture enables future integration with Matter-certified devices without significant modifications to the existing infrastructure.
 
 ---
 
@@ -1184,19 +1171,9 @@ Critical automation workflows can continue operating within local infrastructure
 
 ### Security Components
 
-```text
-Device Authentication
-        ↓
-Secure Commissioning
-        ↓
-Encrypted Communication
-        ↓
-Access Control
-        ↓
-Automation Security
-        ↓
-Infrastructure Monitoring
-```
+<p align="center">
+  <img src="docs/diagrams/security-architecture-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ### Security Objectives
 
@@ -1206,8 +1183,6 @@ Infrastructure Monitoring
 - Ensure trusted device participation
 - Preserve user privacy
 - Support future Matter security enhancements
-
-## The security architecture of CampusMatter follows industry-standard IoT security practices while leveraging the built-in protections provided by the Matter ecosystem.
 
 ---
 
@@ -1345,20 +1320,14 @@ The architecture consists of several interconnected subsystems:
 
 #### User Interaction Layer
 
-Users interact with the system through:
-
 - Web Dashboard
 - Mobile Dashboard
 - Monitoring Interfaces
 - Automation Control Panels
 
-These interfaces provide real-time visibility and control over the smart infrastructure.
-
 ---
 
 #### Processing Layer
-
-The processing layer handles:
 
 - Data aggregation
 - Analytics processing
@@ -1366,13 +1335,9 @@ The processing layer handles:
 - Device orchestration
 - Event management
 
-This layer transforms raw sensor information into actionable intelligence.
-
 ---
 
 #### Communication Layer
-
-The communication layer enables:
 
 - Matter communication
 - MQTT messaging
@@ -1380,13 +1345,9 @@ The communication layer enables:
 - Secure command routing
 - Inter-device communication
 
-This ensures reliable and secure communication across the infrastructure.
-
 ---
 
 #### Infrastructure Layer
-
-The infrastructure layer includes:
 
 - Smart Nodes
 - Sensors
@@ -1394,77 +1355,25 @@ The infrastructure layer includes:
 - Energy Monitoring Devices
 - Connected Appliances
 
-These components perform sensing and actuation functions throughout the environment.
-
 ---
 
 ### Data Flow Summary
 
-```text
-Sensors & Devices
-        ↓
-ESP32 Smart Nodes
-        ↓
-Matter Communication Layer
-        ↓
-Gateway Infrastructure
-        ↓
-Analytics & Automation Services
-        ↓
-Web & Mobile Dashboards
-        ↓
-User Actions & Automation Commands
-```
+<p align="center">
+  <img src="docs/diagrams/sequence-diagram-flowchart.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
----
+<p align="center">
+  <img src="docs/diagrams/sequence-diagram-basic.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
-## Architecture Principles
-
-The CampusMatter architecture is guided by several core engineering principles.
-
-### Interoperability First
-
-Matter serves as the foundation for device communication, enabling future integration with devices from multiple manufacturers.
-
-### Modular Design
-
-Each subsystem is designed independently, allowing components to be upgraded or replaced without affecting the overall infrastructure.
-
-### Scalability by Design
-
-The architecture supports expansion from individual hostel rooms to entire campus environments.
-
-### Local-First Communication
-
-Critical automation workflows operate within the local network to reduce latency and improve reliability.
-
-### Security by Default
-
-Authentication, authorization, and secure communication are incorporated throughout the architecture.
-
-### Distributed Intelligence
-
-Decision-making capabilities are distributed across smart nodes, gateway services, and automation engines to improve system resilience.
-
-### Energy-Aware Operation
-
-The architecture prioritizes efficient resource utilization and energy optimization through occupancy-based automation strategies.
-
-### Future-Ready Infrastructure
-
-The system is designed to support future technologies including:
-
-- Silicon Labs Matter Platforms
-- Edge AI Processing
-- Predictive Maintenance Systems
-- Renewable Energy Integration
-- Smart Campus Digital Twins
+<p align="center">
+  <img src="docs/diagrams/sequence-diagram-advance.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ---
 
 ## Architectural Benefits
-
-The CampusMatter architecture provides:
 
 - Secure Matter-based communication
 - Reduced energy wastage
@@ -1475,22 +1384,15 @@ The CampusMatter architecture provides:
 - Simplified device management
 - Future hardware compatibility
 
-## These characteristics make CampusMatter suitable for modern smart campus environments while providing a foundation for future expansion and innovation.
-
 # Communication Flow
 
 The CampusMatter communication architecture is designed to enable secure, reliable, and interoperable data exchange between sensors, smart devices, gateway services, automation engines, and monitoring dashboards.
 
 The system follows a layered communication model where sensor data is collected by ESP32 smart nodes, transmitted through the Matter communication layer, processed by gateway services, and presented through centralized monitoring interfaces.
 
-This architecture ensures:
-
-- Real-time device communication
-- Secure data transmission
-- Scalable infrastructure management
-- Occupancy-aware automation
-- Energy optimization workflows
-- Matter-based interoperability
+<p align="center">
+  <img src="docs/diagrams/communication-flow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ---
 
@@ -1687,98 +1589,17 @@ Used for:
 
 CampusMatter utilizes occupancy-aware automation to reduce unnecessary energy consumption while maintaining user comfort.
 
-The automation engine continuously evaluates device states, occupancy information, and predefined automation rules before executing control actions.
+## The automation engine continuously evaluates device states, occupancy information, and predefined automation rules before executing control actions.
 
 ### Automation Sequence
 
-```text
-Motion Detection
-        ↓
-Occupancy Analysis
-        ↓
-Rule Evaluation
-        ↓
-Automation Decision
-        ↓
-Command Generation
-        ↓
-Matter Communication
-        ↓
-Device Execution
-        ↓
-Status Feedback
-        ↓
-Dashboard Update
-```
+<p align="center">
+  <img src="docs/diagrams/automation-workflow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
----
-
-### Occupancy-Based Automation Logic
-
-#### Room Occupied
-
-When occupancy is detected:
-
-```text
-Motion Detected
-      ↓
-Room Active
-      ↓
-Maintain Appliance State
-      ↓
-Continue Monitoring
-```
-
-Possible actions:
-
-- Restore previous appliance states
-- Maintain user preferences
-- Resume monitoring
-
----
-
-#### Room Unoccupied
-
-When no occupancy is detected beyond the configured timeout period:
-
-```text
-No Motion Detected
-      ↓
-15 Minute Timeout
-      ↓
-Automation Trigger
-      ↓
-Energy Saving Mode
-```
-
-Possible actions:
-
-- Turn OFF Lights
-- Turn OFF Fans
-- Disable Unused Appliances
-- Reduce Energy Consumption
-
----
-
-### Manual Override Workflow
-
-CampusMatter allows users to override automated decisions through dashboard controls.
-
-```text
-User Command
-      ↓
-Dashboard Request
-      ↓
-Gateway Validation
-      ↓
-Automation Override
-      ↓
-Device Command
-      ↓
-Status Confirmation
-```
-
-This ensures that user preferences always take precedence over automated actions.
+<p align="center">
+  <img src="docs/diagrams/automation-workflow.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ---
 
@@ -1931,22 +1752,6 @@ The score measures the percentage of energy saved relative to total energy consu
 
 ---
 
-### Example Calculation
-
-```text
-Total Energy Consumption = 1000 kWh
-
-Energy Saved = 250 kWh
-```
-
-Result:
-
-```text
-Energy Efficiency Score = 25%
-```
-
----
-
 ### Performance Classification
 
 | Efficiency Score | Performance            |
@@ -2092,34 +1897,6 @@ CampusMatter utilizes multiple programming languages across different system lay
 | TypeScript | Frontend and scalable application development |
 | HTML       | Dashboard structure                           |
 | CSS        | User interface styling                        |
-| Markdown   | Technical documentation                       |
-
-### C++
-
-Used for:
-
-- ESP32 firmware development
-- Device communication logic
-- Sensor integration
-- Hardware control
-
-### JavaScript
-
-Used for:
-
-- Gateway services
-- Automation engines
-- Backend processing
-- MQTT communication
-
-### TypeScript
-
-Used for:
-
-- Modern frontend applications
-- Dashboard development
-- Scalable software architecture
-- Type-safe application development
 
 ---
 
@@ -2137,108 +1914,19 @@ CampusMatter leverages several frameworks and development kits to simplify devel
 | Express.js (Future)                    | Backend API services                      |
 | Silicon Labs Matter Ecosystem (Future) | Interoperability research and integration |
 
-### Matter SDK
-
-Provides:
-
-- Device commissioning
-- Secure communication
-- Interoperability services
-- Matter protocol implementation
-
-### ESP-IDF
-
-Official ESP32 development framework supporting:
-
-- Wi-Fi communication
-- Device control
-- Sensor management
-- Embedded application development
-
-### Node.js
-
-Used within the gateway layer for:
-
-- Device orchestration
-- Data processing
-- Automation services
-- Real-time communication
-
-### React
-
-Used for:
-
-- Dashboard interfaces
-- Monitoring panels
-- Analytics visualization
-- Device management systems
-
 ---
 
 ## Development Tools
 
 CampusMatter uses modern engineering and documentation tools throughout the development lifecycle.
 
-| Tool              | Purpose                           |
-| ----------------- | --------------------------------- |
-| VS Code           | Software development              |
-| GitHub            | Version control and collaboration |
-| Figma             | UI/UX design                      |
-| Draw.io           | Architecture diagrams             |
-| Markdown          | Technical documentation           |
-| Git               | Source code management            |
-| EasyEDA (Planned) | PCB design                        |
-| KiCad (Planned)   | Advanced PCB development          |
-
-### Visual Studio Code
-
-Primary development environment for:
-
-- Firmware development
-- Backend services
-- Documentation management
-- Repository maintenance
-
-### GitHub
-
-Used for:
-
-- Source control
-- Open-source collaboration
-- Documentation hosting
-- Project management
-
-### Figma
-
-Used for:
-
-- Dashboard design
-- Mobile application mockups
-- User experience planning
-- Design prototyping
-
-### Draw.io
-
-Used for:
-
-- Architecture diagrams
-- Communication workflows
-- System modeling
-- Technical visualization
-
-### PCB Development Tools
-
-Future hardware development activities will utilize:
-
-- EasyEDA
-- KiCad
-
-for:
-
-- Schematic design
-- PCB layout development
-- Hardware validation
-- Manufacturing preparation
+| Tool            | Purpose                           |
+| --------------- | --------------------------------- |
+| VS Code         | Software development              |
+| GitHub          | Version control and collaboration |
+| Figma           | UI/UX design                      |
+| Git             | Source code management            |
+| KiCad (Planned) | Advanced PCB development          |
 
 ---
 
@@ -2308,6 +1996,10 @@ Each node is responsible for:
 
 ### Hardware Architecture Flow
 
+<p align="center">
+  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
+
 ```text
 PIR Sensors
 Energy Monitoring
@@ -2323,17 +2015,6 @@ Automation & Analytics Services
         ↓
 Web & Mobile Dashboards
 ```
-
----
-
-### Hardware Objectives
-
-- Reduce energy wastage
-- Enable intelligent automation
-- Support Matter interoperability
-- Simplify deployment
-- Enable future hardware expansion
-- Maintain low operational cost
 
 ---
 
@@ -2496,128 +2177,6 @@ Dashboard Applications
 
 ---
 
-## Sensors & Actuators
-
-Sensors and actuators provide the physical interface between the digital automation platform and the real-world environment.
-
-These components enable occupancy monitoring, energy management, and appliance control.
-
----
-
-### Sensors
-
-#### PIR Motion Sensor
-
-Used for:
-
-- Occupancy detection
-- Room activity monitoring
-- Automation triggering
-
----
-
-#### Energy Meter
-
-Used for:
-
-- Power consumption monitoring
-- Energy analytics
-- Efficiency calculations
-
----
-
-#### Environmental Sensors (Future)
-
-Potential integration:
-
-- Temperature Sensors
-- Humidity Sensors
-- Air Quality Sensors
-- Ambient Light Sensors
-
----
-
-### Actuators
-
-#### Smart Relays
-
-Used for:
-
-- Light control
-- Fan control
-- Appliance switching
-- Automation execution
-
----
-
-#### Smart Plugs
-
-Used for:
-
-- Device monitoring
-- Energy tracking
-- Remote appliance control
-
----
-
-#### Smart Lighting Systems
-
-Used for:
-
-- Automated illumination control
-- Occupancy-based lighting
-- Energy optimization
-
----
-
-### Sensor & Actuator Workflow
-
-```text
-Occupancy Detection
-        ↓
-ESP32 Smart Node
-        ↓
-Automation Engine
-        ↓
-Matter Communication
-        ↓
-Relay Control
-        ↓
-Appliance Operation
-```
-
----
-
-## Hardware Expansion Roadmap
-
-Future hardware development may include:
-
-- CampusMatter Smart Node v1 PCB
-- Silicon Labs EFR32 Integration
-- Thread Networking Support
-- Smart Energy Monitoring Modules
-- Renewable Energy Interfaces
-- Edge AI Hardware Acceleration
-- Smart Campus Infrastructure Nodes
-
----
-
-## Hardware Design Philosophy
-
-The hardware architecture of CampusMatter is guided by the following principles:
-
-- Modular Design
-- Matter Interoperability
-- Scalability
-- Energy Efficiency
-- Local-First Operation
-- Security by Design
-- Future Silicon Labs Compatibility
-
-## These principles ensure that the platform remains adaptable, maintainable, and capable of evolving alongside emerging IoT and Matter ecosystem technologies.
-
----
-
 # Software Architecture
 
 The CampusMatter software architecture is designed using a modular and layered approach to ensure scalability, maintainability, interoperability, and efficient communication between devices, gateways, and user-facing applications.
@@ -2735,6 +2294,9 @@ Dashboard Applications
 
 Backend services provide the core infrastructure responsible for data processing, storage, communication management, and business logic execution.
 
+<p align="center">
+  <img src="docs/diagrams/component-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 These services act as the backbone of the entire CampusMatter ecosystem.
 
 ### Core Services
@@ -3069,49 +2631,7 @@ apps/
 
 The applications layer contains user-facing and service-oriented software components.
 
-### Backend
-
-Responsible for:
-
-- API Services
-- Device Management
-- Data Processing
-- Communication Services
-- Analytics Support
-
-### Mobile
-
-Contains future mobile application development resources.
-
-Planned Features:
-
-- Device Monitoring
-- Appliance Control
-- Occupancy Tracking
-- Notifications
-
-### Web
-
-Contains web dashboard resources.
-
-Features:
-
-- Infrastructure Monitoring
-- Analytics Visualization
-- Automation Management
-- Device Administration
-
 ---
-
-## Assets
-
-```text
-assets/
-├── gifs/
-└── images/
-```
-
-Stores visual project resources.
 
 ### Images
 
@@ -3122,15 +2642,6 @@ Includes:
 - Mobile Interface Designs
 - Workflow Diagrams
 - Hardware Visualizations
-
-### GIFs
-
-Used for:
-
-- Feature Demonstrations
-- Dashboard Walkthroughs
-- System Simulations
-- Project Showcases
 
 ---
 
@@ -3280,14 +2791,6 @@ Contains:
 - ESP32 Documentation
 - Component Lists
 
-### Deployment
-
-Documents:
-
-- Installation Procedures
-- Deployment Planning
-- Infrastructure Setup
-
 ### Power Management
 
 Contains:
@@ -3385,256 +2888,6 @@ It provides centralized control over the entire CampusMatter infrastructure whil
 
 ---
 
-### Key Features
-
-#### Infrastructure Monitoring
-
-Monitor the status of:
-
-- Smart Nodes
-- Sensors
-- Relays
-- Energy Meters
-- Gateway Services
-
----
-
-#### Device Management
-
-Manage connected devices including:
-
-- Smart Lights
-- Fans
-- Smart Plugs
-- Relays
-- Environmental Sensors
-
----
-
-#### Occupancy Analytics
-
-Visualize:
-
-- Room Occupancy
-- Activity Trends
-- Room Utilization
-- Automation Triggers
-
----
-
-#### Energy Analytics
-
-Track:
-
-- Real-Time Consumption
-- Daily Usage
-- Weekly Trends
-- Monthly Reports
-- Energy Savings
-
----
-
-#### Automation Management
-
-Configure:
-
-- Occupancy Rules
-- Appliance Automation
-- Schedules
-- Notification Preferences
-
----
-
-### Dashboard Modules
-
-```text
-Device Monitoring
-        │
-Energy Analytics
-        │
-Occupancy Tracking
-        │
-Automation Control
-        │
-Alert Management
-        │
-System Administration
-```
-
----
-
-## Mobile Dashboard
-
-The Mobile Dashboard provides users with remote access to CampusMatter services from smartphones and tablets.
-
-It enables convenient monitoring and control of smart infrastructure while maintaining a simplified user experience optimized for mobile devices.
-
-### Mobile Dashboard Preview
-
-<p align="center">
-  <img src="images/MobileDashboard.png" alt="CampusMatter Mobile Dashboard" width="40%">
-</p>
-
----
-
-### Mobile Features
-
-#### Remote Device Control
-
-Users can:
-
-- Turn Devices ON/OFF
-- View Device Status
-- Control Appliances
-- Trigger Automation Actions
-
----
-
-#### Real-Time Monitoring
-
-Monitor:
-
-- Occupancy Status
-- Device Activity
-- Energy Consumption
-- Gateway Status
-
----
-
-#### Notifications & Alerts
-
-Receive:
-
-- Occupancy Alerts
-- Device Status Updates
-- Energy Usage Warnings
-- System Notifications
-
----
-
-#### Quick Access Controls
-
-Designed for:
-
-- Fast Navigation
-- One-Tap Controls
-- Mobile Accessibility
-- User Convenience
-
----
-
-### Mobile Dashboard Capabilities
-
-```text
-Device Control
-      ↓
-Occupancy Monitoring
-      ↓
-Energy Analytics
-      ↓
-Notifications
-      ↓
-Automation Management
-```
-
----
-
-## Design System
-
-The CampusMatter design system establishes a consistent visual language across all dashboard interfaces.
-
-The system focuses on usability, accessibility, scalability, and clarity.
-
-### Design Principles
-
-#### Simplicity
-
-Interfaces should remain clean and easy to understand.
-
-#### Consistency
-
-UI elements should behave consistently across all platforms.
-
-#### Accessibility
-
-Information should remain easy to read and interact with.
-
-#### Scalability
-
-The design should support future dashboard expansion.
-
-#### Real-Time Visibility
-
-Critical system information should always be accessible.
-
----
-
-### User Experience Goals
-
-- Intuitive Navigation
-- Reduced Learning Curve
-- Fast Access to Controls
-- Clear Data Visualization
-- Responsive Layouts
-- Modern Interface Design
-
----
-
-### Color Philosophy
-
-| Category | Purpose                            |
-| -------- | ---------------------------------- |
-| Green    | Active Devices & Normal Operations |
-| Blue     | Monitoring & Information           |
-| Yellow   | Warnings & Notifications           |
-| Red      | Critical Alerts & Faults           |
-| Gray     | Inactive Components                |
-
----
-
-### Dashboard Information Hierarchy
-
-```text
-System Status
-      ↓
-Occupancy Insights
-      ↓
-Energy Analytics
-      ↓
-Device Monitoring
-      ↓
-Automation Controls
-      ↓
-Historical Reports
-```
-
----
-
-### Responsive Design Strategy
-
-CampusMatter supports:
-
-- Desktop Interfaces
-- Tablet Interfaces
-- Mobile Devices
-- Future Progressive Web Applications (PWA)
-
-This ensures a consistent user experience regardless of device type.
-
----
-
-## Complete Dashboard Ecosystem
-
-<p align="center">
-  <img src="images/CompleteDashboard.png" alt="CampusMatter Dashboard Ecosystem" width="100%">
-</p>
-
-The complete dashboard ecosystem combines monitoring, analytics, automation management, and device control into a unified platform capable of supporting smart hostel and smart campus environments.
-
-## By integrating real-time telemetry, Matter interoperability, and energy optimization insights, the CampusMatter user interface transforms raw infrastructure data into actionable intelligence for administrators and users alike.
-
----
-
 # Methodology
 
 The development of CampusMatter follows a structured engineering methodology that combines research, system design, communication architecture planning, and validation processes to ensure the creation of a scalable, interoperable, and energy-efficient smart campus infrastructure.
@@ -3694,8 +2947,6 @@ The following technologies were evaluated:
 ---
 
 #### Energy Optimization Research
-
-The study explored:
 
 - Occupancy-Based Automation
 - Energy Consumption Patterns
@@ -3786,20 +3037,9 @@ CampusMatter adopts a distributed communication architecture using Matter and MQ
 
 ### Communication Architecture
 
-```text
-Sensors
-      ↓
-ESP32 Smart Nodes
-      ↓
-Matter Communication Layer
-      ↓
-Gateway Services
-      ↓
-Automation & Analytics Engines
-      ↓
-Dashboard Applications
-```
-
+<p align="center">
+  <img src="docs/diagrams/communication-flow.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 ---
 
 ### Communication Objectives
@@ -3809,173 +3049,6 @@ Dashboard Applications
 - Real-time device monitoring
 - Interoperable device integration
 - Efficient command routing
-
----
-
-### Data Exchange Types
-
-#### Telemetry Data
-
-Generated by:
-
-- Sensors
-- Smart Nodes
-- Energy Monitoring Devices
-
-Used for:
-
-- Analytics
-- Monitoring
-- Optimization
-
----
-
-#### Control Commands
-
-Generated by:
-
-- Dashboard Applications
-- Automation Engine
-
-Used for:
-
-- Appliance Control
-- Automation Execution
-- Device Management
-
----
-
-#### Status Updates
-
-Generated by:
-
-- Smart Devices
-- Gateway Services
-
-Used for:
-
-- Monitoring
-- Reporting
-- Visualization
-
----
-
-### Communication Principles
-
-- Matter-Based Interoperability
-- Secure Messaging
-- Real-Time Synchronization
-- Local-First Communication
-- Distributed Processing
-
----
-
-## Testing Methodology
-
-The testing methodology ensures reliability, performance, scalability, and operational correctness across the CampusMatter ecosystem.
-
-Testing activities are planned throughout the development lifecycle.
-
-### Testing Strategy
-
-```text
-Unit Testing
-      ↓
-Module Testing
-      ↓
-Communication Testing
-      ↓
-Integration Testing
-      ↓
-System Testing
-      ↓
-Deployment Validation
-```
-
----
-
-### Firmware Testing
-
-Objectives:
-
-- Sensor Validation
-- Device Control Verification
-- Communication Testing
-- Automation Logic Validation
-
----
-
-### Gateway Testing
-
-Objectives:
-
-- Device Discovery Validation
-- MQTT Communication Testing
-- Data Processing Verification
-- Automation Engine Testing
-
----
-
-### Dashboard Testing
-
-Objectives:
-
-- User Interface Validation
-- Device Monitoring Verification
-- Analytics Visualization Testing
-- Responsive Design Testing
-
----
-
-### Matter Communication Testing
-
-Objectives:
-
-- Device Commissioning Validation
-- Secure Communication Verification
-- Interoperability Testing
-- Message Routing Validation
-
----
-
-### Energy Optimization Testing
-
-Objectives:
-
-- Occupancy Detection Accuracy
-- Automation Response Time
-- Energy Savings Verification
-- System Efficiency Measurement
-
----
-
-### Performance Metrics
-
-The following metrics will be evaluated:
-
-| Metric                       | Purpose                    |
-| ---------------------------- | -------------------------- |
-| Communication Latency        | Response Time Analysis     |
-| Occupancy Detection Accuracy | Automation Reliability     |
-| Energy Savings Percentage    | Optimization Effectiveness |
-| Device Availability          | Infrastructure Reliability |
-| Automation Success Rate      | Operational Performance    |
-| Dashboard Response Time      | User Experience Evaluation |
-
----
-
-### Expected Outcomes
-
-The testing methodology aims to validate:
-
-- Correct system operation
-- Reliable device communication
-- Effective energy optimization
-- Secure Matter integration
-- Scalable infrastructure performance
-- Future deployment readiness
-
-## Through systematic testing and validation, CampusMatter aims to establish a robust foundation for Matter-enabled smart campus infrastructure capable of supporting real-world educational environments.
 
 ---
 
@@ -4198,6 +3271,9 @@ CampusMatter leverages Matter's security framework to ensure trusted communicati
 
 ### Matter Security Workflow
 
+<p align="center">
+  <img src="docs/diagrams/security-architecture-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 ```text
 Device Discovery
         ↓
@@ -4212,74 +3288,6 @@ Secure Session Establishment
 Encrypted Communication
         ↓
 Operational State
-```
-
----
-
-### Matter Security Features
-
-#### Secure Device Commissioning
-
-Every device must be authenticated before joining the network.
-
-Benefits:
-
-- Prevents unauthorized device access
-- Establishes device trust
-- Reduces security risks
-
----
-
-#### Fabric-Based Trust Model
-
-Matter organizes trusted devices into logical groups known as fabrics.
-
-Advantages:
-
-- Controlled device membership
-- Secure communication boundaries
-- Simplified trust management
-
----
-
-#### Secure Session Establishment
-
-Communication channels are secured before operational data exchange begins.
-
-Benefits:
-
-- Confidential communication
-- Protection against interception
-- Secure device interaction
-
----
-
-#### Encrypted Communication
-
-Matter supports secure encrypted communication between participating devices.
-
-Advantages:
-
-- Data confidentiality
-- Integrity verification
-- Reduced attack surface
-
----
-
-### Security Layers
-
-```text
-User Authentication
-        ↓
-Access Control
-        ↓
-Device Authentication
-        ↓
-Matter Security Layer
-        ↓
-Encrypted Communication
-        ↓
-Infrastructure Services
 ```
 
 ---
@@ -4327,9 +3335,17 @@ CampusMatter follows a role-based access model.
 | Student/User     | Personal Device Control        |
 | Guest            | Restricted Monitoring Access   |
 
+<p align="center">
+  <img src="docs/diagrams/use-case-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
+
 ---
 
 ### Authorization Workflow
+
+<p align="center">
+  <img src="docs/diagrams/use-case.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ```text
 User Login
@@ -4345,129 +3361,11 @@ Resource Access
 
 ---
 
-### Access Control Principles
-
-#### Least Privilege
-
-Users receive only the permissions necessary to perform their tasks.
-
-#### Separation of Responsibilities
-
-Administrative and operational functions remain isolated.
-
-#### Controlled Device Access
-
-Only authorized services can issue device control commands.
-
----
-
 ## Data Privacy
 
 CampusMatter is designed with privacy-conscious data collection and management practices.
 
 The platform focuses on collecting only the information required to support automation, monitoring, and energy optimization objectives.
-
----
-
-### Data Categories
-
-#### Occupancy Data
-
-Collected Information:
-
-- Motion Detection Events
-- Room Activity Status
-- Automation Trigger Information
-
-Purpose:
-
-- Occupancy-aware automation
-- Energy optimization
-- Infrastructure analytics
-
----
-
-#### Device Telemetry
-
-Collected Information:
-
-- Device Status
-- Appliance Activity
-- Communication Metrics
-- System Health Data
-
-Purpose:
-
-- Monitoring
-- Maintenance
-- Analytics
-
----
-
-#### Energy Consumption Data
-
-Collected Information:
-
-- Power Usage
-- Consumption Trends
-- Device-Level Energy Metrics
-
-Purpose:
-
-- Energy optimization
-- Reporting
-- Sustainability analysis
-
----
-
-### Privacy Principles
-
-#### Data Minimization
-
-Only necessary information is collected and processed.
-
-#### Purpose Limitation
-
-Data is used exclusively for monitoring, automation, and optimization functions.
-
-#### Transparency
-
-Users should understand what information is collected and how it is used.
-
-#### Secure Storage
-
-Sensitive information should be protected through appropriate security mechanisms.
-
----
-
-### Privacy Architecture
-
-```text
-Data Collection
-        ↓
-Data Validation
-        ↓
-Secure Processing
-        ↓
-Controlled Storage
-        ↓
-Analytics Generation
-        ↓
-Dashboard Visualization
-```
-
----
-
-### Data Retention Strategy
-
-Future deployments may implement configurable retention policies for:
-
-- Occupancy Data
-- Device Logs
-- Energy Analytics
-- System Events
-
-This helps balance operational requirements with privacy considerations.
 
 ---
 
@@ -4534,89 +3432,9 @@ Each room contains an independent smart node capable of monitoring occupancy, co
 
 ### Deployment Architecture
 
-```text
-Room 1
- ├── PIR Sensor
- ├── Smart Relay
- └── ESP32 Node
-
-Room 2
- ├── PIR Sensor
- ├── Smart Relay
- └── ESP32 Node
-
-Room 3
- ├── PIR Sensor
- ├── Smart Relay
- └── ESP32 Node
-
-        ↓
-
-Matter Communication Layer
-
-        ↓
-
-Gateway Infrastructure
-```
-
----
-
-### Key Features
-
-- Independent room automation
-- Room-level energy monitoring
-- Distributed device management
-- Centralized dashboard visibility
-- Simplified maintenance
-
----
-
-### Benefits
-
-- Reduced energy wastage
-- Easy installation
-- Modular expansion
-- Fault isolation
-- Scalable infrastructure foundation
-
----
-
-## Multi-Floor Deployment
-
-The second scalability stage expands the architecture across multiple floors within a hostel or academic building.
-
-Each floor can contain multiple smart nodes operating independently while sharing centralized management services.
-
-### Multi-Floor Architecture
-
-```text
-Floor 1
- ├── Smart Nodes
- ├── Sensors
- └── Appliances
-
-Floor 2
- ├── Smart Nodes
- ├── Sensors
- └── Appliances
-
-Floor 3
- ├── Smart Nodes
- ├── Sensors
- └── Appliances
-
-        ↓
-
-Matter Communication Network
-
-        ↓
-
-Central Gateway
-
-        ↓
-
-Automation & Analytics Services
-```
+<p align="center">
+  <img src="docs/diagrams/deployment-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+</p>
 
 ---
 
