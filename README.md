@@ -2823,9 +2823,7 @@ The web dashboard serves administrators and facility managers.
 
 #### Preview
 
-```markdown
 ![Web Dashboard](images/WebDashboard.png)
-```
 
 ---
 
@@ -2842,9 +2840,7 @@ The mobile dashboard provides remote access and monitoring capabilities.
 
 #### Preview
 
-```markdown
 ![Mobile Dashboard](images/MobileDashboard.png)
-```
 
 ---
 
@@ -5050,7 +5046,6 @@ Future versions aim to provide:
 
 ---
 
-```markdown
 # Research & References
 
 The development of CampusMatter is supported by extensive research across Matter protocol specifications, embedded systems, IoT communication standards, smart infrastructure architectures, energy optimization methodologies, and industry best practices.
@@ -5235,11 +5230,9 @@ The CampusMatter project incorporates concepts from multiple engineering discipl
 ## Continuous Learning
 
 CampusMatter is an evolving project. As Matter standards mature and new IoT technologies emerge, additional research, documentation, and industry best practices will be incorporated to ensure the platform remains aligned with modern smart infrastructure development principles.
-```
 
 ---
 
-```markdown
 # License
 
 This project is licensed under the MIT License.
@@ -5247,11 +5240,9 @@ This project is licensed under the MIT License.
 The MIT License allows anyone to use, modify, distribute, and build upon this project for both personal and commercial purposes, provided that the original copyright notice and license are included.
 
 For complete details, see the [LICENSE](LICENSE) file.
-```
 
 ---
 
-```markdown
 # Acknowledgements
 
 This project would not have been possible without the guidance, resources, and support provided by the following individuals and organizations:
@@ -5263,11 +5254,9 @@ This project would not have been possible without the guidance, resources, and s
 - **Open Source Community** for continuously contributing knowledge, frameworks, and technologies that support innovation and learning.
 
 Special thanks to everyone contributing to the advancement of interoperable, secure, and sustainable IoT technologies.
-```
 
 ---
 
-```markdown
 # Maintainers & Contact
 
 The CampusMatter project is actively maintained and developed by:
@@ -5284,5 +5273,4 @@ The CampusMatter project is actively maintained and developed by:
 - **GitHub:** https://github.com/tarunchaudharydev
 - **Project Repository:** https://github.com/tarunchaudharydev/campusmatter
 
-For project discussions, collaboration opportunities, technical feedback, or contributions, feel free to open an issue or contact the maintainer directly.
-```
+## For project discussions, collaboration opportunities, technical feedback, or contributions, feel free to open an issue or contact the maintainer directly.
