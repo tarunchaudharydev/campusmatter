@@ -633,11 +633,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ![UI](https://img.shields.io/badge/UI%2FUX-Figma-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+```html
 <div align="center">
-  # CampusMatter ### Matter-Based Smart Infrastructure for Energy-Efficient
-  Campus Automation Exploring Matter Interoperability • Edge IoT • Smart
-  Infrastructure • Energy Optimization
+  <h1>CampusMatter</h1>
+
+  <h3>
+    Matter-Based Smart Infrastructure for Energy-Efficient Campus Automation
+  </h3>
+
+  <p>
+    Building interoperable, scalable, and energy-efficient smart campus
+    ecosystems using Matter, ESP32, and Edge IoT technologies.
+  </p>
 </div>
+```
 
 # Table of Contents
 
