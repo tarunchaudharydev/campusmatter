@@ -633,13 +633,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ![UI](https://img.shields.io/badge/UI%2FUX-Figma-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-```html
 <div align="center">
-  # 🏛️ CampusMatter ### Matter-Based Smart Infrastructure for Energy-Efficient
+  # CampusMatter ### Matter-Based Smart Infrastructure for Energy-Efficient
   Campus Automation Exploring Matter Interoperability • Edge IoT • Smart
   Infrastructure • Energy Optimization
 </div>
-```
 
 # Table of Contents
 
@@ -5261,16 +5259,8 @@ Special thanks to everyone contributing to the advancement of interoperable, sec
 
 The CampusMatter project is actively maintained and developed by:
 
-| Name            | Role                     | Contact                      | GitHub                               |
-| --------------- | ------------------------ | ---------------------------- | ------------------------------------ |
-| Tarun Chaudhary | Project Lead & Developer | tarunchaudhary.dev@gmail.com | https://github.com/tarunchaudharydev |
+| Name        | Role                     | Contact                      | GitHub                               |
+| ----------- | ------------------------ | ---------------------------- | ------------------------------------ |
+| Tarun Kumar | Project Lead & Developer | tarunchaudhary.dev@gmail.com | https://github.com/tarunchaudharydev |
 
 ---
-
-## Connect
-
-- **Email:** tarunchaudhary.dev@gmail.com
-- **GitHub:** https://github.com/tarunchaudharydev
-- **Project Repository:** https://github.com/tarunchaudharydev/campusmatter
-
-## For project discussions, collaboration opportunities, technical feedback, or contributions, feel free to open an issue or contact the maintainer directly.
