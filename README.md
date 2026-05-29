@@ -948,6 +948,7 @@ The hardware architecture follows a modular approach, allowing easy expansion an
 <p align="center">
   <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="CampusMatter Development Timeline" width="100%">
 </p>
+
 ---
 
 ### Scalable Smart Infrastructure
