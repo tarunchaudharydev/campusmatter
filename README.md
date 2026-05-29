@@ -866,7 +866,7 @@ The automation engine continuously monitors room occupancy using PIR sensors and
 - Energy waste reduction
 
 <p align="center">
-  <img src="docs/diagrams/automation-workflow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/automation-workflow-diagram.png" alt="workflow" width="100%">
 </p>
 
 ---
@@ -897,11 +897,11 @@ CampusMatter provides continuous monitoring of energy consumption and device act
 - Automation effectiveness tracking
 
 <p align="center">
-  <img src="docs/diagrams/analytics-pipeline-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/analytics-pipeline-diagram.png" alt="pipeline" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/diagrams/analytics-pipeline-workflow.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/analytics-pipeline-workflow.png" alt="pipline" width="100%">
 </p>
 
 ---
@@ -946,7 +946,7 @@ The hardware architecture follows a modular approach, allowing easy expansion an
 - Gateway Controllers
 
 <p align="center">
-  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="node" width="100%">
 </p>
 
 ---
@@ -1126,7 +1126,7 @@ CampusMatter utilizes Matter as a communication abstraction layer between hardwa
 ### Communication Architecture
 
 <p align="center">
-  <img src="docs/diagrams/device-interoperability-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/device-interoperability-diagram.png" alt="device" width="100%">
 </p>
 
 ### Interoperability Benefits
@@ -1173,7 +1173,7 @@ Critical automation workflows can continue operating within local infrastructure
 ### Security Components
 
 <p align="center">
-  <img src="docs/diagrams/security-architecture-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/security-architecture-diagram.png" alt="security" width="100%">
 </p>
 
 ### Security Objectives
@@ -1361,15 +1361,15 @@ The architecture consists of several interconnected subsystems:
 ### Data Flow Summary
 
 <p align="center">
-  <img src="docs/diagrams/sequence-diagram-flowchart.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/sequence-diagram-flowchart.png" alt="sequence" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/diagrams/sequence-diagram-basic.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/sequence-diagram-basic.png" alt="sequence" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/diagrams/sequence-diagram-advance.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/sequence-diagram-advance.png" alt="sequence" width="100%">
 </p>
 
 ---
@@ -1392,7 +1392,7 @@ The CampusMatter communication architecture is designed to enable secure, reliab
 The system follows a layered communication model where sensor data is collected by ESP32 smart nodes, transmitted through the Matter communication layer, processed by gateway services, and presented through centralized monitoring interfaces.
 
 <p align="center">
-  <img src="docs/diagrams/communication-flow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/communication-flow-diagram.png" alt="communication flow" width="100%">
 </p>
 
 ---
@@ -1497,7 +1497,7 @@ This enables real-time visibility into infrastructure operations.
 The following diagram illustrates how information travels through the CampusMatter ecosystem.
 
 <p align="center">
-  <img src="docs/diagrams/data-flow-diagram.png" alt="CampusMatter Data Flow Diagram" width="100%">
+  <img src="docs/diagrams/data-flow-diagram.png" alt="Data Flow Diagram" width="100%">
 </p>
 
 ### Data Pipeline
@@ -1595,11 +1595,11 @@ CampusMatter utilizes occupancy-aware automation to reduce unnecessary energy co
 ### Automation Sequence
 
 <p align="center">
-  <img src="docs/diagrams/automation-workflow-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/automation-workflow-diagram.png" alt="automation" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/diagrams/automation-workflow.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/automation-workflow.png" alt="automation" width="100%">
 </p>
 
 ---
@@ -1998,7 +1998,7 @@ Each node is responsible for:
 ### Hardware Architecture Flow
 
 <p align="center">
-  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="hardware/circuit-designs/esp32-node-circuit-diagram.png" alt="circuit" width="100%">
 </p>
 
 ```text
@@ -2296,7 +2296,7 @@ Dashboard Applications
 Backend services provide the core infrastructure responsible for data processing, storage, communication management, and business logic execution.
 
 <p align="center">
-  <img src="docs/diagrams/component-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/component-diagram.png" alt="component" width="100%">
 </p>
 These services act as the backbone of the entire CampusMatter ecosystem.
 
@@ -3039,7 +3039,7 @@ CampusMatter adopts a distributed communication architecture using Matter and MQ
 ### Communication Architecture
 
 <p align="center">
-  <img src="docs/diagrams/communication-flow.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/communication-flow.png" alt="communication" width="100%">
 </p>
 ---
 
@@ -3064,7 +3064,7 @@ The roadmap is designed to ensure a structured progression from concept validati
 ## Development Timeline
 
 <p align="center">
-  <img src="docs/architecture/project-timeline.png" alt="CampusMatter Development Roadmap" width="100%">
+  <img src="docs/architecture/project-timeline.png" alt="timeline" width="100%">
 </p>
 
 ---
@@ -3273,7 +3273,7 @@ CampusMatter leverages Matter's security framework to ensure trusted communicati
 ### Matter Security Workflow
 
 <p align="center">
-  <img src="docs/diagrams/security-architecture-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/security-architecture-diagram.png" alt="security" width="100%">
 </p>
 ```text
 Device Discovery
@@ -3337,7 +3337,7 @@ CampusMatter follows a role-based access model.
 | Guest            | Restricted Monitoring Access   |
 
 <p align="center">
-  <img src="docs/diagrams/use-case-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/use-case-diagram.png" alt="workflow" width="100%">
 </p>
 
 ---
@@ -3345,7 +3345,7 @@ CampusMatter follows a role-based access model.
 ### Authorization Workflow
 
 <p align="center">
-  <img src="docs/diagrams/use-case.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/use-case.png" alt="workflow" width="100%">
 </p>
 
 ```text
@@ -3434,7 +3434,7 @@ Each room contains an independent smart node capable of monitoring occupancy, co
 ### Deployment Architecture
 
 <p align="center">
-  <img src="docs/diagrams/deployment-diagram.png" alt="CampusMatter Development Timeline" width="100%">
+  <img src="docs/diagrams/deployment-diagram.png" alt=" Deployment" width="100%">
 </p>
 
 ---
@@ -3815,7 +3815,7 @@ Future deployments may support multiple campus facilities through a unified infr
 ### Smart Campus Architecture
 
 <p align="center">
-  <img src="docs/diagrams/deployment-diagram.png" alt="Smart Campus Expansion Architecture" width="100%">
+  <img src="docs/diagrams/deployment-diagram.png" alt="Smart campus" width="100%">
 </p>
 
 <p align="center">
