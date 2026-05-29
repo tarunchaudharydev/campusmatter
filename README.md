@@ -655,7 +655,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Engineering Highlights](#engineering-highlights)
 
-- [Project Status](#project-status)
+<!-- - [Project Status](#project-status) -->
 
 - [Matter Ecosystem Integration](#matter-ecosystem-integration)
   - [Why Matter?](#why-matter)
@@ -667,7 +667,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [System Architecture](#system-architecture)
   - [4-Layer Architecture](#4-layer-architecture)
   - [Complete System Architecture](#complete-system-architecture)
-  - [Architecture Principles](#architecture-principles)
+  <!-- - [Architecture Principles](#architecture-principles) -->
 
 - [Communication Flow](#communication-flow)
   - [Device Communication Workflow](#device-communication-workflow)
@@ -690,7 +690,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
   - [Silicon Labs Hardware Compatibility](#silicon-labs-hardware-compatibility)
   - [ESP32 Smart Node](#esp32-smart-node)
   - [Gateway Infrastructure](#gateway-infrastructure)
-  - [Sensors & Actuators](#sensors--actuators)
+  <!-- - [Sensors & Actuators](#sensors--actuators) -->
 
 <!-- - [PCB Design](#pcb-design)
   - [CampusMatter Smart Node v1](#campusmatter-smart-node-v1)
@@ -712,13 +712,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Dashboard & User Interface](#dashboard--user-interface)
   - [Web Dashboard](#web-dashboard)
   - [Mobile Dashboard](#mobile-dashboard)
-  - [Design System](#design-system)
+  <!-- - [Design System](#design-system) -->
 
 - [Methodology](#methodology)
   - [Research Methodology](#research-methodology)
   - [System Design Methodology](#system-design-methodology)
   - [Communication Methodology](#communication-methodology)
-  - [Testing Methodology](#testing-methodology)
+  <!-- - [Testing Methodology](#testing-methodology) -->
 
 - [Implementation Roadmap](#implementation-roadmap)
 
@@ -729,7 +729,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Scalability](#scalability)
   - [Multi-Room Deployment](#multi-room-deployment)
-  - [Multi-Floor Deployment](#multi-floor-deployment)
+  <!-- - [Multi-Floor Deployment](#multi-floor-deployment) -->
   - [Campus-Wide Expansion](#campus-wide-expansion)
 
 <!-- - [Current Progress](#current-progress)
@@ -757,7 +757,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Acknowledgements](#acknowledgements)
 
-- [Maintainers & Contact](#maintainers--contact)
+- [Maintainers ](#maintainers)
 
 ---
 
@@ -4079,7 +4079,7 @@ Special thanks to everyone contributing to the advancement of interoperable, sec
 
 ---
 
-# Maintainers & Contact
+# Maintainers
 
 The CampusMatter project is actively maintained and developed by:
 
