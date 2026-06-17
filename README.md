@@ -4070,7 +4070,6 @@ For complete details, see the [LICENSE](LICENSE) file.
 
 This project would not have been possible without the guidance, resources, and support provided by the following individuals and organizations:
 
-- **Dr. Anjan Kumar** for mentorship, project guidance, and promoting innovation through the Silicon Labs IoT Centre of Innovation (COI) initiative.
 - **Silicon Labs** for providing educational resources, technical documentation, and opportunities for students to explore Matter-enabled IoT ecosystems.
 - **Connectivity Standards Alliance (CSA)** for developing and maintaining the Matter standard.
 - **ESP32 Community** for open-source tools, documentation, and embedded development resources.
